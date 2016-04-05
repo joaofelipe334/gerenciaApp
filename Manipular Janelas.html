@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>window.open()</title>
+  <style>
+    html, body {
+      width: 640px;
+      height: 480px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body onclick="myOpen();">
+  <p>Click this page and window.open() is called.</p>
+  <script>
+    function myOpen() {
+      window.open("Sample.htm", null, "height=200, width=400, status=yes, toolbar=no, menubar=no, location=no");
+    }
+  </script>
+
+  <button onclick="open('Sample.htm');">
+  Click this button and document.open() is called.
+</button>
+
+
+</body>
+</html>
