@@ -17,17 +17,18 @@ Projeto de desenvolvimento de uma pagina web, voltada para gerenciamento de Rede
   * Instalar pacote
   * Remover pacote
 
-### Obs: Gerenciamento de pacotes não foi implementado
+Obs: Gerenciamento de pacotes não foi implementado
 
 ## Dependencias
 
 Para utilizar esta pagina é necessario a instalação dos seguintes softwares
 
 * Lamp
-  * Linux ubuntu/trusty64 via box do vagrant no site
+  * Linux ubuntu/trusty64(box do vagrant)
    * Apache 2
    * Mysql-server
    * Php 7.0
+* Vagrant 1.8.1
 
 ## Contatos
 
